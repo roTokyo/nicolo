@@ -1697,6 +1697,20 @@ section {
   bottom: -0.65em;
 }
 
+.bigfoot-footnote__content {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.bigfoot-footnote__tooltip {
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
 /*! Lity - v2.3.1 - 2018-04-20 */
 /* http://sorgalla.com/lity/ */
 /* Copyright (c) 2015-2018 Jan Sorgalla Licensed MIT */
@@ -2205,10 +2219,10 @@ section {
   }
 
   .pageBreakAfter {
-    page-break-after: always;
+    page-break-after: always !important;
   }
 
   .doNotPageBreakInside {
-    page-break-inside: avoid;
+    page-break-inside: avoid !important;
   }
 }
