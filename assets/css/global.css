@@ -300,15 +300,44 @@ blockquote.aggiornamento {
   font-variant: small-caps;
 }
 
-.figCaption {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1rem;
-  color: #616161;
-  font-weight: 400;
-  margin-top: -25px;
-  font-variant: small-caps;
+h1.post-title,
+.post-title {
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  color: #263959;
+  font-weight: 600;
+  line-height: 1;
+}
+h1.post-title .as,
+.post-title .as {
+  font-family: "Lato", sans-serif;
+  font-size: 1.875rem;
+  color: #263959;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
 }
 
+@media only screen and (max-width: 992px) {
+  h1.post-title,
+  .post-title {
+    font-size: 1.5rem;
+  }
+  h1.post-title a.as,
+  .post-title a.as {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1.post-title,
+  .post-title {
+    font-size: 1.5rem;
+  }
+  h1.post-title a.as,
+  .post-title a.as {
+    font-size: 1rem;
+  }
+}
 /* Lists
  **  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul.listaFormattata {
@@ -550,21 +579,24 @@ form#frmNewsLetter #newsLetterBtn {
 /* Media
  **  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 figcaption {
-  margin: 0 0 0.5em 0;
-  font-size: 1rem;
+  margin: 0 0 0.5rem 0;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
   color: #263959;
-  font-weight: 400;
-  line-height: 2;
+  font-weight: 300;
+  line-height: 3;
 }
 
-figcaption {
-  margin: 0 0 0.5em 0;
-  font-size: 1rem;
-  color: #263959;
-  font-weight: 400;
-  line-height: 2;
+@media only screen and (max-width: 992px) {
+  figcaption {
+    font-size: 0.75rem;
+  }
 }
-
+@media only screen and (max-width: 480px) {
+  figcaption {
+    font-size: 0.5625rem;
+  }
+}
 img.mapHere {
   display: inline;
   width: 50px;
@@ -842,11 +874,12 @@ table {
 }
 .o-about .author-name {
   position: relative;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1em;
-  color: #333030;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  color: #263959;
   font-weight: 600;
-  text-transform: capitalize;
+  line-height: 1;
+  text-transform: uppercase;
 }
 .o-about .author-job {
   text-transform: uppercase;
@@ -860,8 +893,7 @@ table {
 }
 .o-about p {
   font-size: 0.8em;
-  color: #333030;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 0 10px;
 }
 
@@ -943,31 +975,42 @@ table {
 }
 .o-post-index .post-index-content {
   padding: 1rem;
-  width: 70%;
+  width: 100%;
 }
 .o-post-index .post-index-content .post-title {
-  margin: 0 0 10px;
+  /* definita in typography */
 }
-.o-post-index .post-index-content .post-title a {
+.o-post-index .post-index-content .post-description {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.875em;
+  font-size: 0.875rem;
   color: #263959;
-  font-weight: 600;
-  text-decoration: none;
-}
-.o-post-index .post-index-content p {
-  margin-top: 0;
-  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.5;
 }
 .o-post-index .post-index-content .post-date,
 .o-post-index .post-index-content .post-words {
   white-space: nowrap;
   font-size: 0.75em;
-}
-.o-post-index .post-index-content .post-words {
   margin-left: 0.5rem;
 }
+.o-post-index .post-index-content .posts-tags-btn {
+  display: inline-block;
+  vertical-align: middle;
+  /*margin: 1rem 0 */
+}
 
+@media only screen and (max-width: 992px) {
+  .o-post-index .post-index-content {
+    /* */
+  }
+  .o-post-index .post-index-content .post-title a {
+    /* definita in typography */
+  }
+  .o-post-index .post-index-content .post-description {
+    /*+font($sysFontSS, 1rem, $bludark, 500, 1.2) */
+    font-size: 0.875rem;
+  }
+}
 .o-griglia {
   display: flex;
   flex-direction: row;
@@ -1180,7 +1223,8 @@ table {
   background-color: #263959;
   border: 1px solid #263959;
   transition: background-color 0.35s ease-in-out;
-  font-size: 0.75em;
+  font-family: "Lato", sans-serif;
+  font-size: 0.75rem;
   color: #FBFBFB;
   font-weight: 500;
   line-height: 2;
@@ -1206,6 +1250,12 @@ table {
   fill: #263959;
 }
 
+@media only screen and (max-width: 992px) {
+  .c-post-tag {
+    /*+font(false, 0.75rem, $greyblu, 500, 2) */
+    font-size: 0.625rem;
+  }
+}
 .c-prenext {
   color: #FFFFFF;
   background-color: #263959;
@@ -1223,13 +1273,19 @@ table {
 
 .c-post-ora {
   padding: 0.2rem 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   border-radius: 4px;
   white-space: nowrap;
   font-size: 0.75em;
   color: #263959;
   background-color: #DDDDDD;
   border: 1px solid #FF0025;
+}
+
+.c-obj_date_ora {
+  display: inline;
+  vertical-align: middle;
+  line-height: 2;
 }
 
 .c-h-titles {
@@ -1246,7 +1302,7 @@ table {
   transform: translate(0px, -2px);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .c-h-titles {
     font-size: 1.7em;
   }
@@ -1496,10 +1552,7 @@ table {
   margin: 3em 0 0 0;
 }
 .o-post-wrapper .post-header .post-title {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 2em;
-  color: #263959;
-  line-height: 1;
+  /*+font($sysFontSS, 2em, $bludark, 600, 1) */
 }
 .o-post-wrapper .post-header .post-date {
   font-size: 0.75em;
@@ -2087,7 +2140,7 @@ section {
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .gallery {
     flex-direction: column;
     justify-content: center;
@@ -2125,7 +2178,12 @@ section {
 }
 
 /* Query  ----------------------------  */
-@media only screen and (max-width: 992px) {
+/* */
+/*  $sitewh: 1250px */
+/*  $phones:  480px */
+/*  $tablet:  810px */
+/*  $screen:  995px */
+@media only screen and (max-width: 78.125rem) {
   .o-post-index {
     width: 48%;
     max-width: 100%;
@@ -2157,8 +2215,8 @@ section {
   display: none;
 }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
+/* Small Devices, Screen & Tablets */
+@media only screen and (max-width: 62rem) {
   .l-sidebar {
     position: relative;
     display: flex;
@@ -2243,7 +2301,7 @@ section {
   }
 }
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 30rem) {
   .l-content-box {
     padding: 10px;
   }
@@ -2264,7 +2322,8 @@ section {
     margin: 0 0 5px;
   }
   .o-post-index .post-content .post-title a {
-    font-size: 21px;
+    font-size: 0.75rem;
+    color: pink;
   }
 
   .sectionContact {
@@ -2318,15 +2377,29 @@ section {
   body .contact-title, body .copyright, body .breack {
     display: none;
   }
-  body .contact-title .post-title, body .copyright .post-title, body .breack .post-title {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 12px;
-    color: #263959;
-    font-weight: 400;
-    line-height: 1.1;
-  }
   body .o-relatedPosts .c-relatedPost .post {
     max-width: 250px;
+  }
+  body .o-btnLink {
+    /* */
+  }
+  body .o-btnLink .btnLinkBox {
+    /* */
+  }
+  body .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper {
+    /* */
+  }
+  body .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper .btnLinkBoxIconWrapper {
+    /* */
+  }
+  body .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper .btnLinkBoxIconWrapper .btnLinkBoxIcon {
+    /* */
+  }
+  body .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper .btnLinkBoxIconWrapper .btnLinkBoxText {
+    /* */
+  }
+  body .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper .btnLinkBoxTag {
+    /* */
   }
   body .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper .btnLinkBoxDescription {
     max-width: 400px !important;
