@@ -99,26 +99,6 @@ sup {
  **  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Lists + Buttons + Textarea + Checkbox
  ** –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ol, ul {
-  margin: 0;
-  padding: 0;
-  /*list-style: none */
-}
-ol li, ul li {
-  margin-left: 2em;
-  /*list-style-type: disc */
-}
-
-ol, ul {
-  margin: 0;
-  padding: 0;
-  /*list-style: none */
-}
-ol li, ul li {
-  margin-left: 2em;
-  /*list-style-type: disc */
-}
-
 button,
 input,
 select,
@@ -336,21 +316,40 @@ h1.post-title .as,
 }
 /* Lists
  **  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul.listaFormattata {
+ol, ul {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ol li, ul li {
+  margin-left: 2em;
+}
+ol li ol, ol li ul, ul li ol, ul li ul {
+  margin: 0;
+  padding: 0;
+}
+ol li ol li, ol li ul li, ul li ol li, ul li ul li {
+  margin-left: 2em;
+}
+
+.listaFormattata {
+  display: block;
+  width: 100%;
   list-style: none;
   padding-left: 0;
 }
-ul.listaFormattata li {
+.listaFormattata li {
   margin: 4px 0;
   font-variant: small-caps;
   font-weight: 600;
   letter-spacing: 1px;
 }
-ul.listaFormattata li ul {
+.listaFormattata li ul {
   margin-top: 4px;
   padding-left: 14px;
 }
-ul.listaFormattata li ul li {
+.listaFormattata li ul li {
   font-variant: normal;
   font-weight: 400;
   font-size: 0.95em;
