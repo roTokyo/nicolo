@@ -266,10 +266,6 @@ p {
   text-transform: none;
 }
 
-p + p {
-  /* margin-bottom: 0 0 vr(1) 0 */
-}
-
 .highlighter-rouge {
   color: #263959;
   border: 1px solid #333030;
@@ -1458,51 +1454,41 @@ table {
   transform: translateY(2px);
 }
 
-.termsTitle, .thanksTitle {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 2em;
+.termsTitle,
+.thanksTitle {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
   color: #263959;
   font-weight: 600;
-  line-height: 2.5;
+  line-height: 2.1;
   background-color: #FFFFFF;
   width: 100%;
   max-width: 100%;
-  margin: 0 auto 1.5rem;
-  min-height: 5rem;
-  border-radius: 10px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.termsArticles, .thanksArticles {
+.termsArticles,
+.thanksArticles {
   width: 100%;
   background-color: #FFFFFF;
-  border-radius: 10px;
-  margin-top: 3em;
 }
-.termsArticles .termsContent, .termsArticles .thanksContent, .thanksArticles .termsContent, .thanksArticles .thanksContent {
+.termsArticles .termsContent,
+.termsArticles .thanksContent,
+.thanksArticles .termsContent,
+.thanksArticles .thanksContent {
   width: 90%;
   margin: 0 auto;
-  padding: 2em 0;
+  padding: 1rem 0;
 }
-.termsArticles .termsContent p, .termsArticles .thanksContent p, .thanksArticles .termsContent p, .thanksArticles .thanksContent p {
-  margin-top: 0;
-  font-family: monospace;
-  font-size: 1.3em;
-  color: #333030;
-  font-weight: 400;
-  line-height: 1.4;
-}
-.termsArticles .termsContent ol, .termsArticles .termsContent ul, .termsArticles .thanksContent ol, .termsArticles .thanksContent ul, .thanksArticles .termsContent ol, .thanksArticles .termsContent ul, .thanksArticles .thanksContent ol, .thanksArticles .thanksContent ul {
-  margin: 1em 0;
-  list-style: none;
-}
-.termsArticles .termsContent ol li, .termsArticles .termsContent ul li, .termsArticles .thanksContent ol li, .termsArticles .thanksContent ul li, .thanksArticles .termsContent ol li, .thanksArticles .termsContent ul li, .thanksArticles .thanksContent ol li, .thanksArticles .thanksContent ul li {
-  font-family: monospace;
-  font-size: 1.3em;
-  color: #333030;
-  font-weight: 400;
-  line-height: 1.4;
-  list-style-type: disc;
+.termsArticles .termsContent p,
+.termsArticles .thanksContent p,
+.thanksArticles .termsContent p,
+.thanksArticles .thanksContent p {
+  /*text-indent: 50px */
+  text-align: justify;
+  word-wrap: break-word;
+  word-break: normal;
 }
 
 /* Post  -----------------------------  */
