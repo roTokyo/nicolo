@@ -807,6 +807,10 @@ table {
   max-width: 60%;
 }
 
+.u-w100 {
+  width: 100%;
+}
+
 /* Layout  ---------------------------  */
 .l-siteWrapper {
   position: relative;
