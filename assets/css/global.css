@@ -576,7 +576,7 @@ form#frmNewsLetter #newsLetterBtn {
 figcaption {
   margin: 0 0 0.5rem 0;
   font-family: "Lato", sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #263959;
   font-weight: 300;
   line-height: 3;
@@ -584,12 +584,12 @@ figcaption {
 
 @media only screen and (max-width: 992px) {
   figcaption {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
 }
 @media only screen and (max-width: 480px) {
   figcaption {
-    font-size: 0.5625rem;
+    font-size: 0.75rem;
   }
 }
 img.mapHere {
@@ -729,6 +729,19 @@ table {
 /*  .is-|.has-: state classes */
 /*  .t1|.s1: typography sizes */
 /*  .u-: utility classes */
+.u-c00 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.red {
+  color: #FF0025;
+}
+
 .u-tal {
   text-align: left;
 }
@@ -1068,8 +1081,16 @@ table {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 100%;
   background-color: rgba(38, 57, 89, 0.8);
   color: white;
+}
+#o-cookies span.centra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 1px solid black;
 }
 #o-cookies a {
   cursor: pointer;
@@ -1082,7 +1103,7 @@ table {
   justify-content: space-between;
   gap: 1.25rem;
   margin: 1.5rem auto;
-  width: 850px;
+  width: 90%;
 }
 .o-btnLink .btnLinkBox {
   flex: 1.5;
@@ -1150,10 +1171,28 @@ table {
   object-fit: cover;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .o-btnLink {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+  }
+  .o-btnLink .btnLinkBox {
+    flex-direction: row;
+    width: 100%;
+  }
+  .o-btnLink .btnLinkBoxContentWrapper {
+    flex: 2;
+  }
+  .o-btnLink .btnLinkBoxImage {
+    flex: 1;
+    max-width: 200px !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .o-btnLink {
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     margin: 10px 0;
   }
   .o-btnLink .btnLinkBox {
@@ -1180,24 +1219,6 @@ table {
   }
   .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper {
     padding: 10px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .o-btnLink {
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .o-btnLink .btnLinkBox {
-    flex-direction: row;
-    width: 100%;
-  }
-  .o-btnLink .btnLinkBoxContentWrapper {
-    flex: 2;
-  }
-  .o-btnLink .btnLinkBoxImage {
-    flex: 1;
-    max-width: 200px !important;
   }
 }
 @media (max-width: 767px) {
