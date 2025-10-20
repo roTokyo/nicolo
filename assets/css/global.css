@@ -95,6 +95,23 @@ sup {
   top: -0.5em;
 }
 
+.elenco {
+  font-size: 30px;
+  color: orange;
+  vertical-align: baseline;
+  line-height: 0.8;
+}
+
+.siti {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #263959;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+  top: -4px;
+}
+
 /* Links
  **  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Lists + Buttons + Textarea + Checkbox
@@ -1181,10 +1198,15 @@ table {
     flex-direction: row;
     width: 100%;
   }
-  .o-btnLink .btnLinkBoxContentWrapper {
+  .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper {
     flex: 2;
   }
-  .o-btnLink .btnLinkBoxImage {
+  .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper .btnLinkBoxTag {
+    font-size: 1.25rem;
+    line-height: 0.5;
+    letter-spacing: 2px;
+  }
+  .o-btnLink .btnLinkBox .btnLinkBoxImage {
     flex: 1;
     max-width: 200px !important;
   }
@@ -1202,6 +1224,12 @@ table {
   }
   .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper {
     padding: 10px;
+  }
+  .o-btnLink .btnLinkBox .btnLinkBoxContentWrapper .btnLinkBoxTag {
+    font-size: 0.875rem;
+    line-height: 0.5;
+    text-indent: 2.5rem;
+    letter-spacing: 1px;
   }
   .o-btnLink .btnLinkBox .btnLinkBoxImage {
     width: 100%;
