@@ -296,7 +296,7 @@ blockquote.aggiornamento {
 h1.post-title,
 .post-title {
   font-family: "Lato", sans-serif;
-  font-size: 2em;
+  font-size: 2rem;
   color: #263959;
   font-weight: 600;
   line-height: 1;
@@ -309,6 +309,20 @@ h1.post-title .as,
   font-weight: 600;
   line-height: 1;
   text-decoration: none;
+}
+
+h1.scheda-title {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: #263959;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.nota {
+  padding: 0.5rem;
+  background: #f4ebd3;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 992px) {
