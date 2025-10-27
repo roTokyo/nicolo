@@ -508,10 +508,9 @@ ol li ol li, ol li ul li, ul li ol li, ul li ul li {
 /* Forms
  **  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 form, fieldset, label, input, textarea {
-  font-family: monospace;
   line-height: 1;
   box-sizing: border-box;
-  width: 100%;
+  /* width: 100% */
 }
 
 form {
@@ -525,12 +524,13 @@ fieldset {
 }
 
 label {
-  display: block;
-  font-size: 1.163em;
+  display: inline-block;
+  font-family: sans;
+  font-size: 1rem;
   color: #263959;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 1.6;
   padding-left: 5px;
-  padding-bottom: 5px;
 }
 
 input, textarea {
