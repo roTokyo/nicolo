@@ -1,6 +1,6 @@
 # Regole generali per tutti i bot
 User-agent: *
-Disallow:
+Disallow: /
 
 # Inserire qui eventuali cartelle o file da escludere in futuro
 # Esempio:
