@@ -1,0 +1,15 @@
+# Regole generali per tutti i bot
+User-agent: *
+Disallow: /
+
+# Inserire qui eventuali cartelle o file da escludere in futuro
+# Esempio:
+Disallow: /drafts/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://rotokyo.github.io/nicolofamily/sitemap.xml
+
+# Nota:
+# - Tutte le pagine sono indicizzabili
+# - Modifica le regole Disallow se in futuro vuoi bloccare cartelle specifiche

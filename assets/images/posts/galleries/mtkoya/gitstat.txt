@@ -1,0 +1,178 @@
+commit 89e04dd13046ebf2496086c59300a639d5d59454
+Author: RoTokyo <roberto.calesini@gmail.com>
+Date:   Sat Nov 8 13:05:45 2025 +0900
+
+    2025-11-08 a mezzogiorno
+
+ .../0000 - Riepilogo Prenotazioni Hotels.numbers   |   Bin 0 -> 764883 bytes
+ .../Fac-simile_Custom_Declaration_Form_C5360-B.pdf |   Bin 0 -> 269879 bytes
+ archivio/Fac-simile_Desimbarcation_card.pdf        |   Bin 0 -> 1911156 bytes
+ archivio/ZZ - Trash/240807-2.jpg                   |   Bin 0 -> 483581 bytes
+ archivio/ZZ - Trash/48FishGround_Shinagawa01.webp  |   Bin 0 -> 2492732 bytes
+ archivio/ZZ - Trash/48FishGround_Shinagawa02.webp  |   Bin 0 -> 3141126 bytes
+ archivio/ZZ - Trash/48FishGround_Shinagawa03.webp  |   Bin 0 -> 3005016 bytes
+ .../Schermata 2025-03-05 alle 22.16.50.jpg         |   Bin 0 -> 379559 bytes
+ ...buya Sky | Attractions in Shibuya, Tokyo.webloc |     8 +
+ archivio/ZZ - Trash/aoniyoshi_logo.png             |   Bin 0 -> 73041 bytes
+ archivio/ZZ - Trash/cover.webp                     |   Bin 0 -> 489758 bytes
+ archivio/ZZ - Trash/daruma.webp                    |   Bin 0 -> 463766 bytes
+ archivio/ZZ - Trash/homuraisu.jpg                  |   Bin 0 -> 61965 bytes
+ archivio/ZZ - Trash/homuraisu.webp                 |   Bin 0 -> 156304 bytes
+ archivio/ZZ - Trash/ichibangai_awaodori.jpg        |   Bin 0 -> 654542 bytes
+ archivio/ZZ - Trash/izakaya-street.jpg             |   Bin 0 -> 635766 bytes
+ archivio/ZZ - Trash/kyoto_byodo-in.jpg             |   Bin 0 -> 138812 bytes
+ ...251\343\201\221\343\202\213\343\200\202.webloc" |     8 +
+ archivio/ZZ - Trash/p011_main-960x450.jpg          |   Bin 0 -> 175477 bytes
+ archivio/ZZ - Trash/pv_pc.jpg                      |   Bin 0 -> 1657400 bytes
+ archivio/ZZ - Trash/shinagawa_jinja.jpg            |   Bin 0 -> 198286 bytes
+ archivio/ZZ - Trash/tennozu_area.jpg               |   Bin 0 -> 46138 bytes
+ archivio/ZZ - Trash/tennozu_isle.jpg               |   Bin 0 -> 38627 bytes
+ archivio/ZZ - Trash/vg1of_meiji.jpg                |   Bin 0 -> 383583 bytes
+ archivio/asuka/arusa_01a.jpg                       |   Bin 0 -> 2079946 bytes
+ archivio/asuka/budda_1920-1500x1125.jpg            |   Bin 0 -> 1594615 bytes
+ archivio/asuka/buddha-blur.jpg                     |   Bin 0 -> 566 bytes
+ archivio/asuka/buddha-thumb.jpg                    |   Bin 0 -> 177675 bytes
+ archivio/asuka/buddha.jpg                          |   Bin 0 -> 229306 bytes
+ archivio/asuka/ishibutai-kofun-asuka.jpg           |   Bin 0 -> 268427 bytes
+ archivio/asuka/mainv.jpg                           |   Bin 0 -> 1932852 bytes
+ archivio/asuka/takamatsuzuka-tumulus-mural.jpg     |   Bin 0 -> 491492 bytes
+ ...ione non religiosa - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 1370113 bytes
+ ...un tempio buddista - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 1348834 bytes
+ ...- Prima di partire - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 909442 bytes
+ ...pan! - Guida al \302\253Goshuincho\302\273.pdf" |   Bin 0 -> 3451636 bytes
+ ...ori del tempio \302\253T\305\215ji\302\273.pdf" |   Bin 0 -> 4145988 bytes
+ ...n! - J\305\215mon \347\270\204\346\226\207.pdf" |   Bin 0 -> 1646551 bytes
+ .../Enjoy Japan! - La religione scintoista.pdf     |   Bin 0 -> 28768804 bytes
+ ...03\255\343\203\274\343\203\236\343\202\270.pdf" |   Bin 0 -> 684039 bytes
+ archivio/brochure/Enjoy Japan! - Usi e costumi.pdf |   Bin 0 -> 3917462 bytes
+ ...3Ni\305\215\302\273 i guardiani dei templi.pdf" |   Bin 0 -> 5013468 bytes
+ .../Enjoy Japan! - \302\253Unkei\302\273.pdf"      |   Bin 0 -> 3280461 bytes
+ archivio/brochure/Japan_official_visitor_guide.pdf |   Bin 0 -> 9878420 bytes
+ .../MAPPA - Mappa della Metro di Tokyo.pdf         |   Bin 0 -> 1374929 bytes
+ archivio/brochure/MAPPA - Nikko.pdf                |   Bin 0 -> 3413106 bytes
+ ...pone ed i giardini - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 14913339 bytes
+ ...3\223\343\203\213 - Enjoy Japan! - Anytype.pdf" |   Bin 0 -> 2347688 bytes
+ ...3\236\343\202\270 - Enjoy Japan! - Anytype.pdf" |   Bin 0 -> 324294 bytes
+ .../brochure/PAMPHLET - Kyoto Miyako wo dori.pdf   |   Bin 0 -> 2940837 bytes
+ ...T - Nikko The World Heritage Sightseeng Bus.pdf |   Bin 0 -> 1101262 bytes
+ .../PAMPHLET - Nikko orari e percorsi dei Bus.pdf  |   Bin 0 -> 1587642 bytes
+ ...PHLET - Tokyo Mostra Mitsui Memorial Museum.pdf |   Bin 0 -> 342106 bytes
+ .../brochure/PAMPHLET - Tokyo Teatro Kabuki.pdf    |   Bin 0 -> 708561 bytes
+ archivio/brochure/PAMPHLET - Tokyo Ueno Area.pdf   |   Bin 0 -> 4054225 bytes
+ ...\236\347\244\276) - Enjoy Japan! - Anytype.pdf" |   Bin 0 -> 5769543 bytes
+ ...ligione scintoista - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 1029012 bytes
+ ...Visita ai santuari - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 2402304 bytes
+ ...lba dei Guerrieri - Enjoy Japan! - Anytype.pdf" |   Bin 0 -> 406945 bytes
+ ... Cosa fare a Ginza - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 17720270 bytes
+ ...rtiere di Shinjuku - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 33277595 bytes
+ archivio/brochure/TOUR - Kyoto moss tour guide.pdf |   Bin 0 -> 903551 bytes
+ ...3\253\345\261\261 - Enjoy Japan! - Anytype.pdf" |   Bin 0 -> 21092815 bytes
+ ...oshuincho\302\273 - Enjoy Japan! - Anytype.pdf" |   Bin 0 -> 604352 bytes
+ ...END - Il sushi ... - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 15587929 bytes
+ ...ugli usi e costumi - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 75486 bytes
+ ...1\223\343\201\235 - Enjoy Japan! - Anytype.pdf" |   Bin 0 -> 310934 bytes
+ ...SI - Usi e costumi - Enjoy Japan! - Anytype.pdf |   Bin 0 -> 527738 bytes
+ archivio/brochure/Visit_japan_web_manual_en.pdf    |   Bin 0 -> 13897002 bytes
+ ... in Kyoto Tower \342\200\223 Kyoto Station.pdf" |   Bin 0 -> 4975330 bytes
+ archivio/fabio/PHOTO-2024-11-17-05-23-55.jpg       |   Bin 0 -> 616953 bytes
+ archivio/fabio/PHOTO-2024-11-19-15-08-03.jpg       |   Bin 0 -> 478168 bytes
+ ...i-7thC-kyoto-kou-ryuu-ji-natl-treasure-TN-2.jpg |   Bin 0 -> 28496 bytes
+ ...'s Outskirts\357\275\234Japan - YouTube.webloc" |     8 +
+ ...log \342\224\212Enoshima Trip - YouTube.webloc" |     8 +
+ ...261\343\202\265\343\202\244\343\203\210.webloc" |     8 +
+ archivio/kamakura/hasedera/hasedera-blur.jpg       |   Bin 0 -> 3604 bytes
+ archivio/kamakura/hasedera/hasedera-thumb.jpg      |   Bin 0 -> 37598 bytes
+ archivio/kamakura/hasedera/hasedera.jpg            |   Bin 0 -> 257799 bytes
+ .../WhatsApp Image 2024-11-10 at 13.48.07.jpeg     |   Bin 0 -> 293182 bytes
+ .../WhatsApp Image 2024-11-10 at 13.48.17.jpeg     |   Bin 0 -> 200081 bytes
+ ...204\351\243\237\344\272\213\345\207\246.webloc" |     8 +
+ ...n | Ministry of the Environment of Japan.webloc |     8 +
+ ...pping | Kyoto City Official Travel Guide.webloc |     8 +
+ ... generale di kyoto con proposte di percorsi.pdf |   Bin 0 -> 16528762 bytes
+ .../mappe/kyoto_area_map_sintetica_kenninji.svg    |     4 +
+ .../kyoto_area_map_sintetica_nij\305\215.svg"      | 15215 ++++++++++++++++++
+ .../mappe/kyoto_area_map_sintetica_ninnaji.svg     | 16062 +++++++++++++++++++
+ .../kyoto_area_map_sintetica_ry\305\215anji.svg"   | 15821 ++++++++++++++++++
+ ...23\343\202\254\343\202\244\343\203\211).webloc" |     8 +
+ ...1\250\343\202\212\346\227\205 - YouTube.webloc" |     8 +
+ ...243\345\271\263\347\255\211\351\231\242.webloc" |     8 +
+ ...213\347\244\222\344\272\224\351\203\216.webloc" |     8 +
+ ...story and Culture | Nikko Official Guide.webloc |     8 +
+ ...Japan Brochures and Guides for Travelers.webloc |     8 +
+ .../Rome2Rio- discover how to get anywhere.webloc  |     8 +
+ .../mtkoya/Schermata 2025-01-06 alle 14.32.00.jpg  |   Bin 0 -> 269028 bytes
+ .../fermata_bus_keihan_arrivo_al_mt.koya.pages     |   Bin 0 -> 1688837 bytes
+ .../fermata_bus_keihan_partenza_x_mt.koya.pages    |   Bin 0 -> 979157 bytes
+ archivio/mtkoya/jinai_umenoma.jpg                  |   Bin 0 -> 305186 bytes
+ archivio/mtkoya/kongobu-ji01.jpg                   |   Bin 0 -> 217377 bytes
+ archivio/mtkoya/kongobu-ji02.jpg                   |   Bin 0 -> 108075 bytes
+ archivio/mtkoya/kongobu-ji03.jpg                   |   Bin 0 -> 136066 bytes
+ archivio/mtkoya/mappa_mt.Koya.pdf                  |   Bin 0 -> 1156626 bytes
+ archivio/nagasaki/nagasaki-blur.jpg                |   Bin 0 -> 3656 bytes
+ archivio/nagasaki/nagasaki-thumb.jpg               |   Bin 0 -> 105012 bytes
+ archivio/nagasaki/nagasaki.jpg                     |   Bin 0 -> 271921 bytes
+ ...7 Vlog di Viaggio in Giappone - YouTube.webloc" |     8 +
+ .../Schermata 2025-10-08 alle 06.55.26.jpg         |   Bin 0 -> 995614 bytes
+ .../Schermata 2025-10-08 alle 06.56.13.jpg         |   Bin 0 -> 1034942 bytes
+ .../Schermata 2025-10-08 alle 06.57.13.jpg         |   Bin 0 -> 352928 bytes
+ .../Schermata 2025-10-08 alle 06.58.40.jpg         |   Bin 0 -> 977189 bytes
+ .../Schermata 2025-10-08 alle 06.59.07.jpg         |   Bin 0 -> 425486 bytes
+ .../Schermata 2025-10-08 alle 06.59.08.jpg         |   Bin 0 -> 502908 bytes
+ .../Schermata 2025-10-08 alle 06.59.16.jpg         |   Bin 0 -> 393246 bytes
+ .../Schermata 2025-10-08 alle 06.59.27.jpg         |   Bin 0 -> 384069 bytes
+ .../Schermata 2025-10-08 alle 06.59.42.jpg         |   Bin 0 -> 533755 bytes
+ .../Schermata 2025-10-08 alle 06.59.50.jpg         |   Bin 0 -> 711289 bytes
+ .../Schermata 2025-10-08 alle 07.00.27.jpg         |   Bin 0 -> 497481 bytes
+ .../Schermata 2025-10-08 alle 07.00.31.jpg         |   Bin 0 -> 520118 bytes
+ .../Schermata 2025-10-08 alle 07.00.35.jpg         |   Bin 0 -> 510287 bytes
+ .../Schermata 2025-10-08 alle 07.00.39.jpg         |   Bin 0 -> 431795 bytes
+ .../Schermata 2025-10-08 alle 07.01.19.jpg         |   Bin 0 -> 452261 bytes
+ .../Schermata 2025-10-08 alle 07.01.34.jpg         |   Bin 0 -> 460545 bytes
+ .../Schermata 2025-10-08 alle 07.02.07.jpg         |   Bin 0 -> 744698 bytes
+ .../Schermata 2025-10-08 alle 07.02.12.jpg         |   Bin 0 -> 756168 bytes
+ .../Schermata 2025-10-08 alle 07.02.24.jpg         |   Bin 0 -> 691989 bytes
+ .../Schermata 2025-10-08 alle 07.02.29.jpg         |   Bin 0 -> 756041 bytes
+ .../Schermata 2025-10-08 alle 07.02.40.jpg         |   Bin 0 -> 740663 bytes
+ .../Schermata 2025-10-08 alle 07.03.04.jpg         |   Bin 0 -> 659493 bytes
+ .../Schermata 2025-10-08 alle 07.03.21.jpg         |   Bin 0 -> 797359 bytes
+ .../Schermata 2025-10-08 alle 07.03.25.jpg         |   Bin 0 -> 679698 bytes
+ .../Schermata 2025-10-08 alle 07.03.34.jpg         |   Bin 0 -> 531532 bytes
+ .../Schermata 2025-10-08 alle 07.03.41.jpg         |   Bin 0 -> 645670 bytes
+ .../WhatsApp Image 2025-07-24 at 20.33.29.jpeg     |   Bin 0 -> 270289 bytes
+ .../WhatsApp Image 2025-07-24 at 20.33.37.jpeg     |   Bin 0 -> 244352 bytes
+ .../WhatsApp Image 2025-07-24 at 20.33.51.jpeg     |   Bin 0 -> 188311 bytes
+ ... Accordi Schermata 2025-03-21 alle 11.09.05.jpg |   Bin 0 -> 212029 bytes
+ ...e goldfish | ART AQUARIUM | ART AQUARIUM.webloc |     8 +
+ ... Tokyo's Vanishing Retro Malls - YouTube.webloc |     8 +
+ .../tokyo/meiji-jingu/tokyo_mappa_meijijin-gu.jpg  |   Bin 0 -> 589896 bytes
+ source/_drafts/disordine/2022-07-04-Koyasan.md     |    69 -
+ source/_drafts/disordine/20XX-link_a_scheda.md     |    34 +-
+ source/_drafts/disordine/20XX-photoGallery.md      |    11 +
+ source/_luoghi/osaka/templi/katsuo-ji.md           |     4 +-
+ .../itinerari/2026-05-15-II\302\260Giorno.md"      |     2 +-
+ source/_posts/2014-05-03-toji.md                   |     4 +-
+ source/_posts/2014-06-03-kukai.md                  |    84 +
+ source/_posts/2022-07-04-koyasan.md                |   255 +
+ source/_posts/2023-05-07-onsen.md                  |    54 -
+ source/_posts/2025-01-31-onsen.md                  |    50 +-
+ source/assets/images/posts/galleries/osaka/01.jpg  |   Bin 843952 -> 0 bytes
+ .../galleries/osaka/katsuoji-daruma-thumb.jpg      |   Bin 0 -> 48235 bytes
+ .../images/posts/heroes/katsuoji-daruma-blur.jpg   |   Bin 0 -> 396 bytes
+ .../images/posts/heroes/katsuoji-daruma-thumb.jpg  |   Bin 0 -> 48235 bytes
+ .../assets/images/posts/heroes/katsuoji-daruma.jpg |   Bin 0 -> 294684 bytes
+ source/assets/images/posts/heroes/kukai-blur.jpg   |   Bin 0 -> 241 bytes
+ source/assets/images/posts/heroes/kukai-thumb.jpg  |   Bin 0 -> 17376 bytes
+ source/assets/images/posts/heroes/kukai.jpg        |   Bin 0 -> 103389 bytes
+ source/assets/images/posts/heroes/looking-blur.jpg |   Bin 168 -> 189 bytes
+ .../assets/images/posts/heroes/looking-thumb.jpg   |   Bin 3298 -> 2685 bytes
+ source/assets/images/posts/heroes/looking.jpg      |   Bin 10488 -> 15209 bytes
+ source/assets/images/posts/heroes/mtkoya-blur.jpg  |   Bin 0 -> 389 bytes
+ source/assets/images/posts/heroes/mtkoya-thumb.jpg |   Bin 0 -> 37491 bytes
+ source/assets/images/posts/heroes/mtkoya.jpg       |   Bin 0 -> 200466 bytes
+ .../images/posts/heroes/onsen_how_to-blur.jpg      |   Bin 0 -> 350 bytes
+ .../images/posts/heroes/onsen_how_to-thumb.jpg     |   Bin 0 -> 25440 bytes
+ source/assets/images/posts/heroes/onsen_how_to.jpg |   Bin 0 -> 127793 bytes
+ .../assets/images/posts/heroes/onsen_main-blur.jpg |   Bin 313 -> 0 bytes
+ .../images/posts/heroes/onsen_main-thumb.jpg       |   Bin 10170 -> 0 bytes
+ source/assets/images/posts/heroes/onsen_main.jpg   |   Bin 157389 -> 0 bytes
+ 171 files changed, 47646 insertions(+), 167 deletions(-)

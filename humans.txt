@@ -1,0 +1,17 @@
+*
+*
+*  Team:  KazuRo --- We are humans! ... Are you?
+*
+*
+*  Creator:       Ro
+*  WebSite:       ro.github.io
+*  Photo Gallery: 
+*  Location:      Japan, Tokyo
+*
+*  Last updated: 2025-11-08 15:34:13 +0900
+*
+*  Language:     Japanese, English, Italiano
+*  Built with:   Jekyll 3.9.5 <https://jekyllrb.com>
+*                VSCodium <https://vscodium.com/>
+*                Image Magick <https://imagemagick.org/>
+*                Real Favicon Generator <https://realfavicongenerator.net>
