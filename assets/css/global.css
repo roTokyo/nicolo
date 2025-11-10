@@ -307,6 +307,9 @@ h1.scheda-title {
   background: #f4ebd3;
   border-radius: 10px;
 }
+.nota.blue {
+  background: rgba(158, 158, 158, 0.2);
+}
 
 .elenco {
   font-size: 30px;
